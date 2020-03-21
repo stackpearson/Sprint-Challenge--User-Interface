@@ -67,8 +67,9 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 850px;
     margin: 0 auto;
+    /* changed width to max width to allow wrapping & responsiveness */
 }
 
 .top-content {
@@ -147,12 +148,45 @@ footer nav a {
 
 /* ---------- My new CSS -------*/
 
-
-/* Nav / default page CSS For quick copy/paste to new pages */
+.banner-img{
+    padding: 25px 0px;
+}
 body{
     padding: 30px;
     margin: 0 auto;
     max-width: 900px;
+}
+.con-flex-container{
+    padding: 0px 15px 25px 15px;
+    border-bottom: 1px dotted black;
+    margin: 20px 20px;
+}
+.con-flex-pair{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-h2{
+    padding-top: 10px;
+}
+.flex-p{
+    padding-bottom:30px;
+}
+footer{
+    margin-top: 25px;
+}
+header{
+    border-bottom: 1px dotted black;
+    padding: 0px 25px 25px 25px;
+    margin-bottom: 25px;
+    max-width: 800px;
+}
+.learn-box{
+    border: 2px solid black;
+    margin: 25px;
+    padding: 8px 20px;
+    border-radius: 5px;
 }
 .lm-img{
     display: block;
@@ -160,6 +194,9 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+/* --------------- Nav CSS --------------- */
+
 nav{
     margin: 0 auto;
     display:flex;
@@ -172,8 +209,52 @@ nav a{
     text-decoration: none;
     padding: 10px;
 }
-/* Nav / default page CSS For quick copy/paste to new pages */
+/* ---------------------------------------- */
 
-.banner-img{
-    padding: 25px 0px;
+
+/* ----- box color set up ------------------*/
+#teal{
+    background-color:teal;
+}
+#gold{
+    background-color:gold;
+}
+#cadetblue{
+    background-color:cadetblue;
+}
+#coral{
+    background-color:coral;
+}
+#crimson{
+    background-color:crimson;
+}
+#forestgreen{
+    background-color:forestgreen;
+}
+#darkorchid{
+    background-color:darkorchid;
+}
+#hotpink{
+    background-color:hotpink;
+}
+#indigo{
+    background-color:indigo;
+}
+#dodgerblue{
+    background-color:dodgerblue;
+}
+/* ---------------------------------------- */
+.test-container{
+    display:flex !important;
+    justify-content: center;
+}
+.test-child1{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+}
+.test-child2{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
 }
