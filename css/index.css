@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ---------- My new CSS -------*/
+
+
+/* Nav / default page CSS For quick copy/paste to new pages */
+body{
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.lm-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+/* Nav / default page CSS For quick copy/paste to new pages */
+
+.banner-img{
+    padding: 25px 0px;
+}
