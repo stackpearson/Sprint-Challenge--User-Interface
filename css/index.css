@@ -209,6 +209,7 @@ nav a{
     text-decoration: none;
     padding: 10px;
 }
+
 /* ---------------------------------------- */
 
 
@@ -244,17 +245,28 @@ nav a{
     background-color:dodgerblue;
 }
 /* ---------------------------------------- */
-.test-container{
-    display:flex !important;
-    justify-content: center;
+
+
+/*---------------Stretch--------------------*/
+
+@media screen and (max-width: 750px){
+    .con-flex-pair{
+        flex-wrap: wrap;
+    }
+    .con-flex-container{
+        max-width: 400px;
+    }
 }
-.test-child1{
-    width: 200px;
-    height: 200px;
-    background-color:black;
+
+
+nav a:hover{
+    background-color:grey;
+    border-radius: 5px;
+    color: white;
 }
-.test-child2{
-    width: 200px;
-    height: 200px;
-    background-color:blue;
+.learn-box:hover{
+    background-color: grey;
+    color: white;
+    font-weight: 900;
 }
+/*------------------------------------------*/
